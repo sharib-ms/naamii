@@ -7,13 +7,13 @@
 
 # Site settings
 title: NAAMII (नामी)
-email: naamii@gmail.com
+email: naamiinepal@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   &copy NAAMII (नामी)
 baseurl: "/naamii" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: we_dont_have_twitter_yet
-#github_username:  bishesh
+github_username:  naamiiNepal
 
 # Build settings
 markdown: kramdown
