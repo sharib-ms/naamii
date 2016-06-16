@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <title>NAAMII Blog</title>
+ 	<link href="/naamii/blog/feed.xml" rel="self"/>
+ 	<link href="/naamii/blog"/>
+ 	<updated>2016-06-16T15:33:49+02:00</updated>
+ 	<id>/naamii/blog</id>
+ 	<author>
+ 		<name>NAAMII</name>
+ 		<email>naami@gmail.com</email>
+ 	</author>
+
+ 	
+ 		<entry>
+ 			<title>Test post</title>
+ 			<link href="/naamii/blog/2016/06/15/Test-post"/>
+ 			<updated>2016-06-15T00:00:00+02:00</updated>
+ 			<id>/naamii//blog/2016/06/15/Test-post</id>
+ 			<content type="html">&lt;p&gt;A test post. I hope that there will be many posts from many of our team members in the upcoming days.&lt;/p&gt;
+</content>
+ 		</entry>
+ 	
+
+</feed>
