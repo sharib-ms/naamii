@@ -1,0 +1,83 @@
+/**
+ * Basic styling
+ */
+
+// Text alignment
+//.text-justify { text-align: justify; } //Justify blocks set with class "text-justify".
+p { // Justify all paragraphs (p tags)
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 { // Align left all headings.
+  text-align: left;
+}
+
+/** List without bullets
+**/
+.list-group{
+  list-style-type: none;  
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+// /**
+//  * Clearfix
+//  */
+// %clearfix {
+
+//     &:after {
+//         content: "";
+//         display: table;
+//         clear: both;
+//     }
+// }
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}

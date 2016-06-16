@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <nav class="navbar navbar-fixed-bottom  navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarFooter">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+	</button>
+	<p class="navbar-brand" >Contacts</p>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbarFooter">
+	<ul class="nav navbar-nav navbar-left">
+	  <li><a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          {% if site.github_username %}
+          <li>{% include icon-github.html username=site.github_username %}</li>
+          {% endif %}
+          {% if site.twitter_username %}
+          <li>{% include icon-twitter.html username=site.twitter_username %}</li>
+          {% endif %}
+	</ul>
+	<p class="navbar-centre navbar-text">{{ site.description }}</p>
+      </div>
+    </div>
+  </nav>
+
+  <script src="{{ site.baseurl }}/assets/javascripts/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascripts/bootstrap.js"></script>
+
+</footer>

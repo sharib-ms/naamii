@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{{ reference | replace_first: 'Khanal, B.', '<b>Khanal, B.</b>'
+             | replace_first: 'Ali, S.', '<b>Ali, S.</b>'
+}}
+
+<br>
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bibtex
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li>{{ entry.bibtex }}</li>
+  </ul>
+
+  {% if entry.doi %}
+  <a href="http://dx.doi.org/{{entry.doi}}" class="btn btn-default"> DOI</a>
+  {% endif %}
+
+  {% if entry.hal_url %}
+  <a href="{{entry.hal_url}}" class="btn btn-default" >HAL</a>
+  {% endif %}
+
+  {% if {{link}} %}
+  <a href="{{link}}" class="btn btn-default"> pdf</a>
+  {% endif %}
+
+</div>
+
+
+
+
+

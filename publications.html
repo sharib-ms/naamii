@@ -1,0 +1,44 @@
+---
+layout: default
+title: Publications
+---
+
+<h1>Publications</h1>
+<p>
+  NAAMI members are currently working in different parts of the world as NAAMII does not actually exist as a real institution at present.
+  Publications listed in this website are actually the works of NAAMI members in their respective institutions around the world.
+</p>
+
+<a href="#ja" class="btn btn-default">
+  <b>Journal articles</b>
+</a>
+<a href="#ic" class="btn btn-default">
+  <b>Int. Conferences</b>
+</a>
+<a href="#theses" class="btn btn-default">
+  <b>Theses</b>
+</a>
+<a href="#talks" class="btn btn-default">
+  <b>Invitations</b>
+</a>
+
+<br><br>
+
+<a name="ja"></a> <h2> Journal articles </h2>
+
+{% bibliography --query @article[status!=editorial && status!=other] %}
+
+<br>
+
+<a name="ic"></a> <h2>International conferences (with peer-reviewed proceedings) </h2>
+{% bibliography --query @inproceedings[status!=editorial && status!=other] %}
+
+<br>
+
+<a name="theses"></a> <h2> Theses </h2>
+Coming soon
+
+<br>
+
+<a name="talks"></a> <h2> Talks </h2>
+Coming soon
