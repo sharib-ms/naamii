@@ -1,5 +1,5 @@
 # Nepal Applied Mathematics and Informatics Institute (NAAMII, नामी)
-This repository serves as a means of a communication amongs the (potential) founding members, as a medium to contribute to our website, as a means to disseminate one's ideas and vision via blogs of our website.
+This repository serves as a means of a communication among the (potential) founding members, as a medium to contribute to our website, as a means to disseminate one's ideas and vision via blogs of our website.
 
 ## Submitting/Writing a blog
 If you are not familiar with git or do not want to use github, just send us your article via email, and we can publish it for you.
