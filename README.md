@@ -39,4 +39,7 @@ Once you get this far, now it's time to make your edits and creating a pull requ
    * `git push origin --delete <branchName> # To delete the branch on github repo`
    * `git branch -d <branchName> # To delete the branch on your local repo`
 
+## Instant preview of this Readme file just like GitHub
+If you are editing this readme file, you will definitely want to see how github would render this file before you actually commit to github.
+For this, you can use [Grip](https://github.com/joeyespo/grip).
 
